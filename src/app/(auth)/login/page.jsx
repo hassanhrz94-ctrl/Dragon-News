@@ -19,7 +19,7 @@ const LoginPage = () => {
   const { data: res, error } = await authClient.signIn.email({
       email: data.email, // required
       password: data.password, // required
-      rememberMe: true,
+      // rememberMe: true,
       callbackURL: "/",
     });
 
